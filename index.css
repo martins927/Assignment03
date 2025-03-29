@@ -26,6 +26,16 @@ header{
     
 
 }
+.top{
+    font-size: 28px;
+    font-weight: bold;
+    color: pink;
+    
+}
+header p{
+    font-size: 30px;
+    color: chocolate;
+}
 .logo{
     font-size: 28px;
     font-weight: bold;
@@ -57,8 +67,8 @@ nav ul li a:hover{
 }
 .hero{
     position: inherit;
-    height: 90vh;
-    background-image:url("istockphoto-1360738821-1024x1024.jpg");
+    height: 180vh;
+    background-image:url(img.jpeg);width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,6 +76,7 @@ nav ul li a:hover{
     flex-wrap: wrap;
     text-shadow: #000;
 }
+
 .hero h1{
     font-size: 48px;
     font-weight: bold;
@@ -98,6 +109,14 @@ nav ul li a:hover{
 
 
 }
+.goods h1{
+    text-align: left;
+    text-shadow: 4px;
+    color: #000;
+    margin: 0px 30px 0px 60px;
+
+}
+
 .offer{
     background-color: white;
     justify-content: center;
@@ -109,11 +128,27 @@ nav ul li a:hover{
 
 
 }
+.goods{
+    background-color: white;
+    justify-content: center;
+    padding: 60px 10px;
+    margin: 0px 4px;
+    box-shadow: 0px 2px 8px rgb(0,0,0,0.1);
+}
 .offer img{
     width: 50px;
     margin-bottom: 15px;
     width: 200px;
 
+}
+.offer video{
+    margin-bottom: 15px ;
+    width: 200px;
+}
+.goods img{
+    width: 50px;
+    margin-bottom: 15px;
+    width: 300px;
 }
 .box{
     display: flex;
@@ -121,11 +156,35 @@ nav ul li a:hover{
     flex-wrap: wrap;
     justify-content: center;
     
-    
 
 }
-a.Gift.html{
-    color: red;
+.items{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pet p{
+    margin-top: 20px;
+    color: yellow;
+}
+.good p{
+    margin: ;
+}
+.place{
+    margin: 25px 0px 0px 0px;
+    text-align: left;
+
+}
+.place p{
+    margin: 10px;
+    text-decoration: solid;
+    font-style: italic;
+    font-size: x-large;
+
+}
+.place ul{
+    margin: 3px;
 }
 
 
